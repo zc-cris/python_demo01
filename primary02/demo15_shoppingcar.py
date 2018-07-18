@@ -21,14 +21,14 @@ while 1:
             print("你选择的是：{number} {product}".format(number=number, product=products[number - 1]))
 
 # 判断输入的字符串是否是合法的小数
-# def isnumber(num):
+# def isfloat(num):
 #     if re.match('(^0\.\d+)|([1-9]\d*\.\d+)', num):
 #         return True
 #     else:
 #         return False
 #
 #
-# # print(isnumber("0.23"))
+# # print(isfloat("0.23"))
 #
 # print(type(23.23))  # float
 # print(float('23.23'))  # 23.23
